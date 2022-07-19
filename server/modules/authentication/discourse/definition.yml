@@ -1,0 +1,26 @@
+key: discourse
+title: Discourse
+description: Discourse is an open source discussion platform.
+author: Sebastien Andrivet sebastien@andrivet.com
+logo: https://static.requarks.io/logo/wikijs.svg
+color: indigo lighten-2
+website: https://www.discourse.org/
+isAvailable: true
+useForm: false
+props:
+  discourseSecret:
+    type: String
+    title: Discourse Connect Provider Secret
+    hint: The secret configured by the administrator under discourse connect provider secret
+    order: 1
+  discourseURL:
+    type: String
+    title: Discourse Root URL
+    hint: The URL where Discourse is accessible (such as https://discourse.example.com)
+    order: 2
+  discourseGroups:
+    type: String
+    title: Allowed Discourse Groups
+    hint: Comma-separated list of Discourse groups allowed to authenticate
+    order: 3
+

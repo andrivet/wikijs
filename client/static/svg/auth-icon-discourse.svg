@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 810 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1.1373,0,0,1.11111,-5.02782,3.90799e-14)">
+        <path d="M716.636,52.796C716.636,23.657 693.524,0 665.056,0L56.002,0C27.533,0 4.421,23.657 4.421,52.796L4.421,487.204C4.421,516.343 27.533,540 56.002,540L665.056,540C693.524,540 716.636,516.343 716.636,487.204L716.636,52.796Z"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-82.2257,103.982)">
+        <text x="154.379px" y="176.658px" style="font-family:'Arial-Black', 'Arial Black', sans-serif;font-weight:900;font-size:289.333px;fill:rgb(255,165,0);">AD<tspan x="594.596px " y="176.658px ">V</tspan></text>
+    </g>
+    <g transform="matrix(1,0,0,1,-78.3883,366.322)">
+        <text x="154.379px" y="176.658px" style="font-family:'Arial-Black', 'Arial Black', sans-serif;font-weight:900;font-size:289.333px;fill:white;">i3</text>
+    </g>
+    <g transform="matrix(1,0,0,1,212.635,366.322)">
+        <text x="154.379px" y="176.658px" style="font-family:'Arial-Black', 'Arial Black', sans-serif;font-weight:900;font-size:289.333px;fill:rgb(33,167,239);">++</text>
+    </g>
+</svg>
