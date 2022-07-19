@@ -2,7 +2,7 @@ key: discourse
 title: Discourse
 description: Discourse is an open source discussion platform.
 author: Sebastien Andrivet sebastien@andrivet.com
-logo: https://static.requarks.io/logo/wikijs.svg
+logo: https://www.discourse.org/a/img/favicon.png
 color: indigo lighten-2
 website: https://www.discourse.org/
 isAvailable: true
