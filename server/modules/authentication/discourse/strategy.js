@@ -37,6 +37,7 @@ Strategy.prototype.authenticate = function (req, options) {
     const ret = Provider.validateAuth(req.originalUrl)
     const profile = {}
     if (ret) {
+      profile.id = ret.external_id
       profile.username = ret.username
       profile.email = ret.email
       profile.displayName = ret.name
