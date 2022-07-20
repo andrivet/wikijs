@@ -25,6 +25,7 @@ function validateGroups(userGroups, authorizedGroups) {
       return true
     }
   }
+  WIKI.logger.warn('No valid group found')
   return false
 }
 
@@ -46,10 +47,12 @@ Strategy.prototype.authenticate = function (req, options) {
     }
     self.verify_cb(req, null, null, profile, function (error, user) {
       if (!validateGroups(profile.discourseGroups, self.discourseGroups)) {
+        WIKI.logger.warn('No valid group found')
         self.fail('Invalid groups')
       } else if (user) {
         self.success(user)
       } else {
+        WIKI.logger.warn('No valid group found')
         self.fail('Failed to validate user')
       }
     })
@@ -60,5 +63,4 @@ Strategy.prototype.authenticate = function (req, options) {
   }
 }
 
-// Expose constructor.
 module.exports = Strategy

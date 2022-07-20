@@ -25,6 +25,7 @@ module.exports = {
           })
           cb(null, user)
         } catch (err) {
+          WIKI.logger.warn(err)
           cb(err, null)
         }
       }
