@@ -18,11 +18,15 @@ cp LICENSE PACKAGE/
 gfind PACKAGE -printf "%P\n" | tar -czf wiki-js-adv.tar.gz --no-recursion -C PACKAGE -T -
 mv wiki-js-adv.tar.gz PACKAGE/
 
-echo Copy on the destination such as /tmp and execute:
+echo
+echo On the local machine:
+echo scp PACKAGE/wiki-js-adv.tar.gz srv2:/tmp
+echo
+echo On srv2:
 echo sudo systemctl stop wiki
 echo sudo -iu wiki
-echo cd /opt
-echo cp /tmp/ wiki-js-adv.tar.gz
-echo tar xzf wiki-js-adv.tar.gz -C ./wiki
+echo tar xzf /tmp/wiki-js-adv.tar.gz -C /opt/wiki
 echo exit
+echo rm /tmp/wiki-js-adv.tar.gz
 echo sudo systemctl start wiki
+echo sudo journalctl -f -u wiki
